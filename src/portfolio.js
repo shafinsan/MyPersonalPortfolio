@@ -20,28 +20,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Mohammad Elias Jaber",
+  title: "Hi all, I'm Elias",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 with a B.Sc. from American International University-Bangladesh, skilled in building scalable web applications using JavaScript, React.js, Node.js, and system design. Experienced in developing distributed systems like Google Docs, Zomato, Spotify, and Tinder clones, leveraging microservices, caching, and real-time technologies."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "", // Placeholder; update with your CV link (e.g., Google Drive or Overleaf PDF)
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/shafinsan",
+  linkedin: "https://www.linkedin.com/in/elias-jaber-4074312b6/",
+  gmail: "eliasjabershafin599@gmail.com",
+  gitlab: "",
+  facebook: "https://www.facebook.com/ej.shafin",
+  medium: "",
+  stackoverflow: "",
+  twitter: "", // optional
+  instagram: "", // optional
+  kaggle: "https://www.kaggle.com/eliasjaber", // optional
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER | ASP.NET Core & React.js Enthusiast",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build scalable full-stack applications using ASP.NET Core and React.js"),
+    emoji("⚡ Develop microservices with Node.js, Express.js, and distributed systems"),
+    emoji("⚡ Optimize performance with caching, load balancing, and message queues"),
+    emoji("⚡ Design and integrate relational & NoSQL databases (SQL Server, MongoDB, PostgreSQL)"),
+    emoji("⚡ Implement real-time features with WebSocket, Kafka, and Redis"),
+    emoji("⚡ Explore deep learning integration with practical applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,33 +88,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "ASP.NET Core",
+      fontAwesomeClassname: "fas fa-code"
     },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Express.js", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "SQL Server", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Redis", fontAwesomeClassname: "fas fa-bolt" },
+    { skillName: "Kafka", fontAwesomeClassname: "fas fa-stream" },
+    { skillName: "Elasticsearch", fontAwesomeClassname: "fas fa-search" },
+    { skillName: "Git/GitHub", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "C++", fontAwesomeClassname: "fas fa-code" }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,46 +114,76 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Feni Pilot High School",
+      logo: require("./assets/images/pilot.png"), // Add your logo
+      subHeader: "Secondary School Certificate – Feni",
+      duration: "01/2015 – 03/2017",
+      desc: "Completed Secondary School Certificate with outstanding academic performance.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "GPA: 5.0/5.0",
+        "Participated in science and math competitions",
+        "Active member of debate club"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "Feni Government College",
+      logo: require("./assets/images/feni.png"), // Add your logo
+      subHeader: "Higher Secondary Certificate – Feni",
+      duration: "08/2017 – 07/2019",
+      desc: "Completed Higher Secondary Certificate in Science stream with distinction.",
+      descBullets: [
+        "GPA: 5.0/5.0",
+        "Focused on Physics, Chemistry, and Mathematics",
+        "Engaged in extracurricular activities including coding club"
+      ]
+    },
+    {
+      schoolName: "American International University-Bangladesh (AIUB)",
+      logo: require("./assets/images/aiub.png"), // Add your logo
+      subHeader: "Bachelor of Science in Computer Science and Engineering – Dhaka",
+      duration: "09/2019 – 05/2023",
+      desc: "Graduated with a strong academic record and hands-on experience in software development.",
+      descBullets: [
+        "CGPA: 3.8/4.0",
+        "Achieved Dean’s List recognition for academic excellence",
+        "Built several web and mobile projects using modern technologies",
+        "Active member of AIUB programming club and tech community"
+      ]
+    },
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (React.js, HTML, CSS, JavaScript)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Backend (ASP.NET Core, Node.js, Express.js)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Databases (SQL Server, MongoDB, PostgreSQL, Redis, Elasticsearch)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "System Design & Distributed Systems",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programming (C++, Java, Python, JavaScript)",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "DSA & Algorithms (LeetCode & Problem Solving)",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // You can enable this if you want GitHub/CodersRank badges
 };
 
 // Work experience section
@@ -292,7 +310,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -300,7 +318,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -308,53 +326,76 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Sharing insights on modern development, frameworks, AI, and the future of work in tech.",
+  displayMediumBlogs: false, // Using custom blogs
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://docs.microsoft.com/en-us/dotnet/core/",
+      title: "Why .NET Core is a Game-Changer for Developers",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        ".NET Core is a cross-platform, high-performance framework for building modern web applications, APIs, and cloud services. It’s fast, flexible, and backed by Microsoft’s ecosystem, making it ideal for enterprise and startups alike."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://reactjs.org/",
+      title: "Why React Remains the Best Choice for Frontend Development",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "React is a declarative, component-based JavaScript library for building dynamic UIs. Its reusable components, large community, and efficient rendering make it a top choice for modern web applications."
+    },
+    {
+      url: "https://www.weforum.org/agenda/2023/05/artificial-intelligence-jobs-future-work/",
+      title: "Will AI Take Our Jobs?",
+      description:
+        "AI is transforming industries, automating repetitive tasks, and augmenting human capabilities. While some jobs may evolve or disappear, new opportunities emerge for professionals who adapt and leverage AI effectively."
+    },
+    {
+      url: "https://www.freecodecamp.org/news/why-learn-python-in-2024/",
+      title: "Why Python is Still the Most Popular Language",
+      description:
+        "Python’s simplicity, versatility, and extensive libraries make it perfect for web development, data science, machine learning, and automation. Its community support ensures continuous growth and learning opportunities."
+    },
+    {
+      url: "https://www.smashingmagazine.com/2023/06/progressive-web-apps/",
+      title: "The Rise of Progressive Web Apps (PWAs)",
+      description:
+        "PWAs combine the best of web and mobile apps, offering offline access, fast loading, and native-like experiences. They’re cost-effective and boost user engagement, making them essential for modern web strategy."
+    },
+    {
+      url: "https://hbr.org/2023/03/how-to-adapt-to-ai-in-the-workplace",
+      title: "Adapting to AI in the Workplace",
+      description:
+        "AI is reshaping how we work. Professionals who embrace AI tools can enhance productivity, creativity, and problem-solving. Continuous learning and adaptability are key to thriving in an AI-driven world."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "💬 Talks & Sessions",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Sharing ideas, experiences, and a bit of laughter 😎✨"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Building Actions for Google Assistant 🤖",
+      subtitle: "uilding Google Assistant Actions with Code & Coffee ☕🤖",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/embed/PPs5lZ2syv4"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -370,12 +411,10 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+8801670319232",
+  email_address: "eliasjabershafin599@gmail.com"
 };
-
 // Twitter Section
 
 const twitterDetails = {
@@ -383,7 +422,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
