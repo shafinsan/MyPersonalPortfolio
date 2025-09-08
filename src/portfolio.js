@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Engineer 🚀 with a B.Sc. from American International University-Bangladesh, skilled in building scalable web applications using JavaScript, React.js, Node.js, and system design. Experienced in developing distributed systems like Google Docs, Zomato, Spotify, and Tinder clones, leveraging microservices, caching, and real-time technologies."
   ),
-  resumeLink: "", // Placeholder; update with your CV link (e.g., Google Drive or Overleaf PDF)
+  resumeLink: "https://drive.google.com/uc?export=download&id=1qu3ziahRFAye0btE5UKnie5JSveZMno3", // Placeholder; update with your CV link (e.g., Google Drive or Overleaf PDF)
   displayGreeting: true
 };
 
