@@ -234,15 +234,15 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/authweb.png"), // replace with your logo or screenshot
+      projectName: "NestJS Auth App",
+      projectDesc: "🚀 Modern auth system with NestJS & Next.js — secure 🔒, fast ⚡, and sleek 💎. Handles login, registration, and user management effortlessly.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://nestjs-authentication-frontend.netlify.app/"
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here.
       ]
     },
     {
