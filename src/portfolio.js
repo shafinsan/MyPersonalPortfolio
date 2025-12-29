@@ -234,13 +234,13 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/authweb.png"), // replace with your logo or screenshot
+      image: require("./assets/images/foodorder.png"), // replace with your logo or screenshot
       projectName: "NestJS Auth App",
       projectDesc: "🚀 Modern auth system with NestJS & Next.js — secure 🔒, fast ⚡, and sleek 💎. Handles login, registration, and user management effortlessly.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://nestjs-authentication-frontend.netlify.app/"
+          url: "https://phenomenal-crepe-f64907.netlify.app/"
         }
         // you can add extra buttons here.
       ]
