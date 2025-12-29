@@ -235,12 +235,12 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/foodorder.png"), // replace with your logo or screenshot
-      projectName: "NestJS Auth App",
-      projectDesc: "🚀 Modern auth system with NestJS & Next.js — secure 🔒, fast ⚡, and sleek 💎. Handles login, registration, and user management effortlessly.",
+      projectName: "🥘 DishNexus",
+      projectDesc: "🚀 Full-stack Food Management Hub with ASP.NET Core & React — secure 💳, lightning-fast ⚡, and dynamic 🥘. Effortlessly handles menu CRUD, real-time dashboard tracking, and secure Stripe payments",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://phenomenal-crepe-f64907.netlify.app/"
+          url: "https://delivery-food-frontend-omega.vercel.app/"
         }
         // you can add extra buttons here.
       ]
