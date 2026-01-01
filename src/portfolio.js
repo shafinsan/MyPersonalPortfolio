@@ -241,18 +241,26 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://delivery-food-frontend-omega.vercel.app/"
+        },
+         {
+          name: "View Code",
+          url: "https://github.com/shafinsan/Food-Sphere-Management-Hub"
         }
         // you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/phonebook.png"),
+      projectName: "Phonebook Management System",
+      projectDesc: "A comprehensive Full-Stack web application built with ASP.NET Core MVC for managing professional and personal contacts. It features role-based authorization, group organization, multi-number support, and data export capabilities.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://phonebookmanagementsystembd.runasp.net/"
+        },
+        {
+          name: "View Code",
+          url: "https://github.com/shafinsan/phonebookweb"
         }
       ]
     }
